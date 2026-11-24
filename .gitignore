@@ -1,0 +1,33 @@
+# Documentos internos y planificacion (excluidos del repositorio publico)
+Plan de construcción de la app de recetas.docx
+*.docx
+docs/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+*.db
+*.sqlite3
+
+# Flutter / Mobile
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
